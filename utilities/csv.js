@@ -18,8 +18,8 @@ const writeToCsv = (results) => {
     "Name",
     "Husbands Name",
     "House Number",
-    "gender",
-    "age",
+    "Gender",
+    "Age",
     "Fathers Name",
   ];
 
