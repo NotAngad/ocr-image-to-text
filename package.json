@@ -1,0 +1,21 @@
+{
+  "name": "bhumio",
+  "version": "1.0.0",
+  "description": "reading text from images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/pdftoImg.js && node ./scripts/cropImage.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AngadSrivastav",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.22.12",
+    "pdf-poppler": "^0.2.1",
+    "pdf2pic": "^3.1.1",
+    "string-similarity-js": "^2.1.4",
+    "tesseract.js": "^5.0.5"
+  }
+}
