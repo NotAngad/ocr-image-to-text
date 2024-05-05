@@ -10,12 +10,9 @@
   "author": "AngadSrivastav",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.11.2",
     "fs": "^0.0.1-security",
     "jimp": "^0.22.12",
     "pdf-poppler": "^0.2.1",
-    "pdf2pic": "^3.1.1",
-    "string-similarity-js": "^2.1.4",
     "tesseract.js": "^5.0.5"
   }
 }
